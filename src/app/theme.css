@@ -1,0 +1,49 @@
+/* Estilos condicionais para temas ABL e USC */
+
+/* Estilo para botões ABL */
+.btn-abl {
+  background-color: #013352;
+  color: white;
+}
+
+.btn-abl:hover {
+  background-color: #024463;
+}
+
+/* Estilo para botões USC */
+.btn-usc {
+  background-color: #ff0075;
+  color: white;
+}
+
+.btn-usc:hover {
+  background-color: #e6006a;
+}
+
+/* Borders e acentos */
+.border-abl {
+  border-color: #013352;
+}
+
+.border-usc {
+  border-color: #ff0075;
+}
+
+.text-abl {
+  color: #013352;
+}
+
+.text-usc {
+  color: #ff0075;
+}
+
+/* Focus states */
+.focus-abl:focus {
+  border-color: #013352;
+  box-shadow: 0 0 0 2px rgba(1, 51, 82, 0.2);
+}
+
+.focus-usc:focus {
+  border-color: #ff0075;
+  box-shadow: 0 0 0 2px rgba(255, 0, 117, 0.2);
+}
